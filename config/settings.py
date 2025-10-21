@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-fs&4w=e4r&iofj6vl5=xq)&ugpn!gguysbc#)sh03u&d&w!m%#
 DEBUG = True
 # DEBUG = False ## 디버그 모드 사용 중단(운영)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['13.125.103.238']
 # ALLOWED_HOSTS = ['localhost', '127.0.0.1'] ## 운영시 허용된 호스트 주소 지정
 
 
