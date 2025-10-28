@@ -23,8 +23,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 SECRET_KEY = 'django-insecure-fs&4w=e4r&iofj6vl5=xq)&ugpn!gguysbc#)sh03u&d&w!m%#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-DEBUG = False ## 디버그 모드 사용 중단(운영)
+DEBUG = True
+# DEBUG = False ## 디버그 모드 사용 중단(운영)
 
 ALLOWED_HOSTS = []
 # ALLOWED_HOSTS = ['localhost', '127.0.0.1'] ## 운영시 허용된 호스트 주소 지정
